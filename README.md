@@ -5,10 +5,10 @@
 L’algorithme de colonie d’abeilles est l’un des algorithmes (swarm), inspiré par le comportement collectif des colonies sociales d’insectes et d’autres sociétés animales.
 
 Les propriétés du méthode SWARM : 
-* Auto-organisation:
+* Auto-organisation: <br />
 → L’organisation d’une colonie est faite automatiquement, et cette intelligence de chaque individu collabore pour le résultat final.
 
-* La division du travail:
+* La division du travail: <br />
 → Les tâches sont effectuées simultanément, et chaque travailleur a son rôle bien précis.
 
 Cet algorithme modélise le comportement des abeilles à miel et peut servir à rechercher des solutions à des problèmes complexes. Les abeilles à miel jouent différents rôles dans leurs colonies, il y a des abeilles qui sont encore jeunes, et des abeilles adultes travailleuses. Parmi ces abeilles travailleuses, chaque abeilles doit exécuter une tâche bien précise. Ces abeilles travailleuses sont groupées dans 3 types principaux selon le type de tâche à accomplir.
@@ -26,12 +26,12 @@ Plus d'infos dans notre rapport de projet, [ici](ABC_Rapport.pdf).
  - Lancer le programme
 
 On peut changer la fonction objectif dans le fichier OptUHA.cpp en début du fichier à la place de "Griewank".
-Ne pas oublier de changer LOWER_LIMIT et UPPER_LIMIT dans le fichier OptUHA.h.
+Ne pas oublier de changer `LOWER_LIMIT` et `UPPER_LIMIT` dans le fichier `OptUHA.h`.
 
-Griewank = -600, 600
-Sphere = -100, 100
-Rastrigin = -5, 5
-Rasenbrock = -100, 100
+Griewank = -600, 600 <br />
+Sphere = -100, 100 <br />
+Rastrigin = -5, 5 <br />
+Rasenbrock = -100, 100 <br />
 
 ## Auteurs
 
